@@ -228,30 +228,32 @@ const Header: React.FC = () => {
                 <Sun className="h-6 w-6" />
               )}
             </button>
-            <button
-              onClick={handleDownloadPdf}
-              disabled={isDownloadingPdf}
-              className="p-2 ml-4 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
-              aria-label="Scarica come PDF"
-            >
-              {isDownloadingPdf ? (
-                <Loader2 className="h-6 w-6 animate-spin" />
-              ) : (
-                <Download className="h-6 w-6" />
-              )}
-            </button>
-            <button
-              onClick={handleDownloadDocx}
-              disabled={isDownloadingDocx}
-              className="p-2 ml-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
-              aria-label="Scarica come DOCX"
-            >
-              {isDownloadingDocx ? (
-                <Loader2 className="h-6 w-6 animate-spin" />
-              ) : (
-                <FileText className="h-6 w-6" />
-              )}
-            </button>
+            <div className="hidden md:flex items-center">
+              <button
+                onClick={handleDownloadPdf}
+                disabled={isDownloadingPdf}
+                className="p-2 ml-4 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
+                aria-label="Scarica come PDF"
+              >
+                {isDownloadingPdf ? (
+                  <Loader2 className="h-6 w-6 animate-spin" />
+                ) : (
+                  <Download className="h-6 w-6" />
+                )}
+              </button>
+              <button
+                onClick={handleDownloadDocx}
+                disabled={isDownloadingDocx}
+                className="p-2 ml-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 disabled:opacity-50 disabled:cursor-not-allowed"
+                aria-label="Scarica come DOCX"
+              >
+                {isDownloadingDocx ? (
+                  <Loader2 className="h-6 w-6 animate-spin" />
+                ) : (
+                  <FileText className="h-6 w-6" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
       </nav>

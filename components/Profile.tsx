@@ -28,9 +28,11 @@ const Profile: React.FC = () => {
           <h1 className="text-4xl font-extrabold text-slate-900 dark:text-white">{name}</h1>
           <p className="mt-1 text-lg text-primary-600 dark:text-primary-400 font-medium">{title}</p>
           <p className="mt-2 text-slate-500 dark:text-slate-400">{location}</p>
-          <blockquote className="mt-6 p-4 bg-slate-50 dark:bg-slate-800/50 border-l-4 border-primary-500 italic text-slate-600 dark:text-slate-300">
-            <p>{finalFormula}</p>
-          </blockquote>
+          {finalFormula && (
+            <blockquote className="mt-6 p-4 bg-slate-50 dark:bg-slate-800/50 border-l-4 border-primary-500 italic text-slate-600 dark:text-slate-300">
+              <p>{finalFormula}</p>
+            </blockquote>
+          )}
           <div className="mt-6 flex flex-wrap gap-4 text-sm">
             {contacts.map(contact => {
               const IconComponent = iconComponents[contact.icon as keyof typeof iconComponents];

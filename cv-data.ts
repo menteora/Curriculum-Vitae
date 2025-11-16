@@ -7,7 +7,7 @@ const cvData = {
     "title": "Responsabile IT, Scrum Master, CHO, Sviluppatore e Analista",
     "location": "Bologna, Emilia Romagna, Italia",
     "avatarUrl": "https://picsum.photos/seed/lucadamicoprofile/200",
-    "finalFormula": "La mia missione è fornire valore tangibile combinando tecnologia, metodologia e approcci incentrati sulla persona.",
+    "finalFormula": "",
     "contacts": [
       { "type": "email", "value": "menteora@gmail.com", "url": "mailto:menteora@gmail.com", "icon": "Mail" },
       { "type": "linkedin", "value": "LinkedIn", "url": "https://www.linkedin.com/in/damicoluca", "icon": "Linkedin" },
@@ -23,7 +23,7 @@ const cvData = {
     { "title": "Ambiti", "targetId": "where-i-apply-it", "icon": "Pin", "w_question": "DOVE" }
   ],
   "whyMission": {
-    "title": "La Mia Missione",
+    "title": "La mia Missione",
     "statements": [
       "La mia missione è fornire valore tangibile combinando tecnologia, metodologia e approcci incentrati sulla persona."
     ]
@@ -52,7 +52,7 @@ const cvData = {
     ]
   },
   "howMethod": {
-    "title": "Il Mio Metodo",
+    "title": "Il mio Metodo",
     "intro": "Utilizzo un approccio iterativo basato sul ciclo PDCA (Plan-Do-Check-Act), potenziato da Scrum per massimizzare valore e apprendimento e centrato sulla persona grazie alla Scienza della Felicità (CHO).",
     "pdca": [
       {
@@ -98,7 +98,7 @@ const cvData = {
     ]
   },
   "howCompetencies": {
-    "title": "Le Mie Competenze Distintive",
+    "title": "Le mie Competenze Distintive",
     "items": [
       { "name": "Pensiero Logico e Sistemico", "icon": "BrainCircuit" },
       { "name": "Comunicazione Empatica", "icon": "Ear" },
@@ -114,7 +114,7 @@ const cvData = {
   "howPrinciples": {
     "title": "I Miei Principi Guida",
     "definitionOfValue": {
-      "title": "La Mia Definizione di Valore",
+      "title": "la mia Definizione di Valore",
       "subtitle": "Il mio lavoro ha valore quando...",
       "items": [
         "è documentato e facilmente comprensibile da altri,",
@@ -126,11 +126,11 @@ const cvData = {
     }
   },
   "whoIHelp": {
-    "title": "Il Mio Target",
+    "title": "Il mio Target",
     "items": [ "CEO", "Comitati Direttivi", "Aziende", "Teams", "Chiunque cerchi più ordine, chiarezza e serenità." ]
   },
   "whereIApplyIt": {
-    "title": "I Miei Ambiti",
+    "title": "I miei Ambiti",
     "items": [ "IT e Organizzazione Aziendale", "Analisi e Sviluppo Web e Progetti AI", "Trasformazione Culturale e Agile", "Progettazione di Esperienze Umane" ]
   },
   "certifications": [
