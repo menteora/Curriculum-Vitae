@@ -35,6 +35,6 @@ export default defineConfig(({ mode }) => {
   
   return {
     ...commonConfig,
-    base: '/curriculum-vitae/', 
+    //base: '/curriculum-vitae/', 
   };
 });
