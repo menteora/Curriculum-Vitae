@@ -137,10 +137,7 @@ const Header: React.FC = () => {
               ...cvData.howMethod.pdca.flatMap((quad) => [
                 new Paragraph({ children: [new TextRun({ text: `${quad.title} - ${quad.subtitle}`, bold: true })] }),
                 ...quad.items.map((item) => new Paragraph({ 
-                  children: [
-                    new TextRun({ text: `${item.term}: `, bold: true }),
-                    new TextRun({ text: item.description })
-                  ],
+                  text: item,
                   bullet: { level: 0 } 
                 })),
                 new Paragraph({ text: '' }),

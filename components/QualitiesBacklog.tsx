@@ -20,10 +20,9 @@ const HowCompetencies: React.FC = () => {
   const { title, items } = cvData.howCompetencies;
   return (
     <section id="how-competencies">
-      <h2 className="text-3xl font-bold text-center mb-8 text-slate-900 dark:text-white flex items-center justify-center">
-        <Package className="h-8 w-8 mr-3 text-primary-500" />
+      <h3 className="text-2xl font-bold text-center mb-8 text-slate-900 dark:text-white">
         {title}
-      </h2>
+      </h3>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {items.map((quality) => {
           const IconComponent = iconComponents[quality.icon];

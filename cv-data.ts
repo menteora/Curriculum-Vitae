@@ -53,46 +53,46 @@ const cvData = {
   },
   "howMethod": {
     "title": "Il Mio Metodo",
-    "intro": "Utilizzo un approccio iterativo basato sul ciclo PDCA (Plan-Do-Check-Act), potenziato da Scrum per massimizzare valore e apprendimento, grazie alla scienza della felicità (CHO).",
+    "intro": "Utilizzo un approccio iterativo basato sul ciclo PDCA (Plan-Do-Check-Act), potenziato da Scrum per massimizzare valore e apprendimento e centrato sulla persona grazie alla Scienza della Felicità (CHO).",
     "pdca": [
       {
-        "title": "PIANIFICO",
-        "subtitle": "Il 'Perché' e il 'Cosa': definisco la visione e traccio la rotta.",
+        "title": "PIANIFICARE",
+        "subtitle": "Definisco la visione e traccio la rotta.",
         "icon": "PlayCircle", "color": "border-blue-500",
         "items": [
-          { "term": "Product Goal & Sprint Goal", "description": "Utilizzo gli obiettivi di Scrum per dare una direzione chiara e motivante." },
-          { "term": "Product Backlog", "description": "Traduco la strategia in un elenco di lavoro ordinato per valore, trasparente e flessibile." },
-          { "term": "Sprint Planning", "description": "Pianifico in modo collaborativo cosa può essere realizzato e come, promuovendo l'impegno del team." }
+          "Definire la visione con obiettivi chiari (Product & Sprint Goal).",
+          "Tradurre la strategia in un Backlog trasparente e ordinato.",
+          "Pianificare in modo collaborativo il lavoro dello Sprint."
         ]
       },
       {
-        "title": "ESEGUO",
-        "subtitle": "Il 'Come': trasformo i piani in valore tangibile, uno Sprint alla volta.",
+        "title": "CREARE VALORE",
+        "subtitle": "Trasformo i piani in valore tangibile.",
         "icon": "Zap", "color": "border-green-500",
         "items": [
-          { "term": "Sprint", "description": "Lavoro in cicli brevi (1-4 settimane) per consegnare valore in modo incrementale e raccogliere feedback rapidamente." },
-          { "term": "Daily Scrum", "description": "Sincronizzo il team ogni giorno per ispezionare i progressi e adattare il piano per le prossime 24 ore." },
-          { "term": "Incremento di Valore", "description": "Mi concentro sulla creazione di un risultato utilizzabile alla fine di ogni Sprint, garantendo un progresso concreto." }
+          "Lavorare in cicli brevi (Sprint) per rilasciare valore incrementale.",
+          "Sincronizzarsi quotidianamente (Daily Scrum) per adattare il piano.",
+          "Focalizzarsi sulla creazione di un risultato utilizzabile (Incremento)."
         ]
       },
       {
-        "title": "VERIFICO",
-        "subtitle": "L'Ispezione: misuro i progressi e raccolgo feedback.",
+        "title": "VERIFICARE",
+        "subtitle": "Misuro i progressi e raccolgo feedback.",
         "icon": "CheckCircle", "color": "border-yellow-500",
         "items": [
-          { "term": "Sprint Review", "description": "Ispeziono l'incremento con gli stakeholder, raccogliendo spunti per adattare il prodotto e il piano futuro." },
-          { "term": "Trasparenza degli Artefatti", "description": "Assicuro che Product Backlog, Sprint Backlog e Incremento siano sempre visibili e aggiornati." },
-          { "term": "Metriche e Dati", "description": "Analizzo dati concreti (es. burndown, velocity) per valutare l'andamento e prendere decisioni informate." }
+          "Ispezionare i risultati con gli stakeholder (Sprint Review).",
+          "Garantire la trasparenza degli artefatti (Backlog, Incremento).",
+          "Utilizzare dati concreti per misurare i progressi."
         ]
       },
       {
-        "title": "AGISCO",
-        "subtitle": "L'Adattamento: miglioro il processo e il prodotto.",
+        "title": "MIGLIORARE",
+        "subtitle": "Miglioro il processo e il prodotto.",
         "icon": "ArrowUpCircle", "color": "border-red-500",
         "items": [
-          { "term": "Sprint Retrospective", "description": "Facilito un momento di riflessione per il team per identificare e pianificare miglioramenti nel processo." },
-          { "term": "Adattamento del Backlog", "description": "Modifico il Product Backlog in base ai feedback della Review, garantendo che si lavori sempre sulla cosa più importante." },
-          { "term": "Cultura del Miglioramento", "description": "Incoraggio una mentalità di apprendimento continuo, dove ogni ciclo è un'opportunità per diventare più efficaci." }
+          "Riflettere e pianificare miglioramenti di processo (Retrospective).",
+          "Adattare il Backlog in base ai feedback per massimizzare il valore.",
+          "Promuovere una cultura di apprendimento e miglioramento continuo."
         ]
       }
     ]
@@ -114,12 +114,12 @@ const cvData = {
   "howPrinciples": {
     "title": "I Miei Principi Guida",
     "definitionOfValue": {
-      "title": "Definizione di Valore",
+      "title": "La Mia Definizione di Valore",
       "subtitle": "Il mio lavoro ha valore quando...",
       "items": [
         "è documentato e facilmente comprensibile da altri,",
         "migliora un processo, un prodotto o una relazione,",
-        "genera un impatto misurabile e positivo per qualcuno,",
+        "genera un impatto misurabile e positivo,",
         "lascia le persone più capaci o sicure di prima,",
         "è sostenibile e contribuisce agli obiettivi a lungo termine."
       ]
@@ -127,11 +127,11 @@ const cvData = {
   },
   "whoIHelp": {
     "title": "Lo Faccio",
-    "items": [ "CEO", "Teams", "Chiunque cerchi più ordine, chiarezza e serenità." ]
+    "items": [ "CEO", "Comitati Direttivi", "Aziende", "Teams", "Chiunque cerchi più ordine, chiarezza e serenità." ]
   },
   "whereIApplyIt": {
     "title": "Lo Applico",
-    "items": [ "IT e Organizzazione Aziendale", "Sviluppo Web e Progetti AI", "Iniziative di Diversità & Inclusione", "Trasformazione Culturale e Agile", "Progettazione di Esperienze Umane" ]
+    "items": [ "IT e Organizzazione Aziendale", "Analisi e Sviluppo Web e Progetti AI", "Trasformazione Culturale e Agile", "Progettazione di Esperienze Umane" ]
   },
   "certifications": [
     { "name": "Competenza su Standard ISO (9001, 30415)", "date": "2024" },
@@ -153,9 +153,10 @@ const cvData = {
           ]
       },
       {
-          "company": "Freelance",
+          "company": "Freelance e collaborazioni occasionali",
           "roles": [
-              "Analisi e Sviluppo di siti web e applicazioni (Nuxt, Vue, FastAPI)",
+              "Consulenza per Analisi e Sviluppo di siti web e applicazioni (React, Codex, Google Studio, Nuxt, Vue, FastAPI)",
+              "Sviluppo Python per automazioni",
               "Consulenza per l'adozione di pratiche Agili"
           ]
       }

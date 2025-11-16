@@ -38,12 +38,10 @@ const HowMethod: React.FC = () => {
                   </div>
                 </div>
                 <ul className="space-y-3">
-                  {quad.items.map(item => (
-                    <li key={item.term} className="flex items-start text-slate-600 dark:text-slate-300">
+                  {quad.items.map((item, index) => (
+                    <li key={index} className="flex items-start text-slate-600 dark:text-slate-300">
                       <Check className="h-4 w-4 mr-2.5 mt-1 text-primary-500 flex-shrink-0" />
-                      <span>
-                        <span className="font-semibold text-slate-700 dark:text-slate-200">{item.term}:</span> {item.description}
-                      </span>
+                      <span>{item}</span>
                     </li>
                   ))}
                 </ul>
