@@ -114,7 +114,7 @@ const Header: React.FC = () => {
               new Paragraph({ text: cvData.profile.title, alignment: AlignmentType.CENTER }),
               new Paragraph({ text: cvData.profile.location, alignment: AlignmentType.CENTER }),
               new Paragraph({ text: '' }),
-              new Paragraph({ text: cvData.profile.finalFormula, italics: true, alignment: AlignmentType.CENTER }),
+              new Paragraph({ children: [new TextRun({ text: cvData.profile.finalFormula, italics: true })], alignment: AlignmentType.CENTER }),
               new Paragraph({ text: '' }),
 
               // WHY
@@ -124,7 +124,7 @@ const Header: React.FC = () => {
 
               // WHAT
               new Paragraph({ text: cvData.whatValue.title, heading: HeadingLevel.HEADING_2 }),
-              new Paragraph({ text: cvData.whatValue.intro, italics: true }),
+              new Paragraph({ children: [new TextRun({ text: cvData.whatValue.intro, italics: true })] }),
               ...cvData.whatValue.areas.map((area) => new Paragraph({ text: area.name, bullet: { level: 0 }})),
               new Paragraph({ text: '' }),
               new Paragraph({ text: cvData.whatResults.title, heading: HeadingLevel.HEADING_3 }),
@@ -133,7 +133,7 @@ const Header: React.FC = () => {
 
               // HOW Method
               new Paragraph({ text: cvData.howMethod.title, heading: HeadingLevel.HEADING_2 }),
-              new Paragraph({ text: cvData.howMethod.intro, italics: true }),
+              new Paragraph({ children: [new TextRun({ text: cvData.howMethod.intro, italics: true })] }),
               ...cvData.howMethod.pdca.flatMap((quad) => [
                 new Paragraph({ children: [new TextRun({ text: `${quad.title} - ${quad.subtitle}`, bold: true })] }),
                 ...quad.items.map((item) => new Paragraph({ 
@@ -146,7 +146,7 @@ const Header: React.FC = () => {
               // HOW Principles
               new Paragraph({ text: cvData.howPrinciples.title, heading: HeadingLevel.HEADING_3 }),
               new Paragraph({ children: [new TextRun({ text: cvData.howPrinciples.definitionOfValue.title, bold: true })] }),
-              new Paragraph({ text: cvData.howPrinciples.definitionOfValue.subtitle, italics: true }),
+              new Paragraph({ children: [new TextRun({ text: cvData.howPrinciples.definitionOfValue.subtitle, italics: true })] }),
               ...cvData.howPrinciples.definitionOfValue.items.map((item) => new Paragraph({ text: item, bullet: { level: 0 } })),
               new Paragraph({ text: '' }),
 
