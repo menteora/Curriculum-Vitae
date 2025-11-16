@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, LucideProps, Shield, TrendingUp, Code, Users, Smile, Check, Handshake } from 'lucide-react';
+import { Briefcase, LucideProps, Shield, TrendingUp, Code, Users, Smile, Handshake } from 'lucide-react';
 import Card from './ui/Card';
 import cvData from '../cv-data';
 

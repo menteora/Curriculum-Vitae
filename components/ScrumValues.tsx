@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pin, Check } from 'lucide-react';
+import { Pin } from 'lucide-react';
 import Card from './ui/Card';
 import cvData from '../cv-data';
 

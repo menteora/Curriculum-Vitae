@@ -19,8 +19,7 @@
   },
   "include": ["."],
   "exclude": [
-    "vite.config.ts",
-    // ...other exclusions
+    "vite.config.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

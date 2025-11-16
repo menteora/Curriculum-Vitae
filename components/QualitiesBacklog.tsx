@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrainCircuit, Ear, Share2, Handshake, Lightbulb, ShieldCheck, Wind, Search, TrendingUp, HeartHandshake, Package, LucideProps } from 'lucide-react';
+import { BrainCircuit, Ear, Share2, Handshake, Lightbulb, ShieldCheck, Wind, Search, TrendingUp, HeartHandshake, LucideProps } from 'lucide-react';
 import Card from './ui/Card';
 import cvData from '../cv-data';
 
