@@ -33,5 +33,8 @@ export default defineConfig(({ mode }) => {
     };
   }
   
-  return commonConfig;
+  return {
+    ...commonConfig,
+    base: '/il-tuopath/', 
+  };
 });
