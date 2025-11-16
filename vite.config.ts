@@ -35,6 +35,6 @@ export default defineConfig(({ mode }) => {
   
   return {
     ...commonConfig,
-    base: '/il-tuopath/', 
+    base: '/curriculum-vitae/', 
   };
 });
