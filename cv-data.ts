@@ -127,7 +127,7 @@ const cvData = {
   },
   "whoIHelp": {
     "title": "Il mio Target",
-    "items": [ "CEO", "Comitati Direttivi", "Aziende", "Teams", "Chiunque cerchi più ordine, chiarezza e serenità." ]
+    "items": [ "CEO", "Comitati Direttivi", "Aziende", "Teams", "Chiunque cerchi più ordine, chiarezza e serenità" ]
   },
   "whereIApplyIt": {
     "title": "I miei Ambiti",
