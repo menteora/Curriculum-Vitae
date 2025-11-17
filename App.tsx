@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import { ThemeProvider } from './context/ThemeContext';
 import Header from './components/Header';
 import Profile from './components/Profile';
@@ -13,8 +14,33 @@ import WhereIApplyIt from './components/ScrumValues';
 import Certifications from './components/Certifications';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
+import { handleDownloadPdf, handleDownloadDocx } from './utils/downloader';
+import { useRouter } from './hooks/useRouter';
 
 function App() {
+  const { route, navigate } = useRouter();
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  useEffect(() => {
+    const downloadContent = async () => {
+      if (isDownloading) return;
+
+      if (route === '/pdf' || route === '/pdf/') {
+        setIsDownloading(true);
+        await handleDownloadPdf();
+        navigate('/');
+        setIsDownloading(false);
+      } else if (route === '/docx' || route === '/docx/') {
+        setIsDownloading(true);
+        await handleDownloadDocx();
+        navigate('/');
+        setIsDownloading(false);
+      }
+    };
+
+    downloadContent();
+  }, [route, navigate, isDownloading]);
+
   return (
     <ThemeProvider>
       <div className="min-h-screen text-slate-800 dark:text-slate-200 transition-colors duration-300">

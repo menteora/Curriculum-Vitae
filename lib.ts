@@ -25,6 +25,10 @@ import { ThemeProvider, ThemeContext, Theme } from './context/ThemeContext';
 
 // Hooks
 import { useTheme } from './hooks/useTheme';
+import { useRouter } from './hooks/useRouter';
+
+// Utils
+import { handleDownloadPdf, handleDownloadDocx } from './utils/downloader';
 
 // Types
 import * as types from './types';
@@ -50,5 +54,8 @@ export {
   ThemeContext,
   Theme,
   useTheme,
+  useRouter,
+  handleDownloadPdf,
+  handleDownloadDocx,
   types,
 };
