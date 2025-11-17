@@ -4,7 +4,7 @@ const cvData = {
   },
   "profile": {
     "name": "Luca D'Amico",
-    "title": "Responsabile IT, Scrum Master, CHO, Sviluppatore e Analista",
+    "title": "Responsabile IT, Scrum Master, CHO, Business & Dev Analyst",
     "location": "Bologna, Emilia Romagna, Italia",
     "avatarUrl": "https://picsum.photos/seed/lucadamicoprofile/200",
     "finalFormula": "",
@@ -34,7 +34,7 @@ const cvData = {
     "areas": [
       { "name": "Gestione IT", "icon": "Shield" },
       { "name": "Ottimizzazione Processi (ISO 9001)", "icon": "TrendingUp" },
-      { "name": "Analisi e Sviluppo Software", "icon": "Code" },
+      { "name": "Business & Dev Analyst", "icon": "Code" },
       { "name": "Gestione Team (Scrum Master)", "icon": "Users" },
       { "name": "Formazione e Facilitazione", "icon": "Handshake" },
       { "name": "Cultura Agile e Benessere (CHO, ISO 30415, PdR 125)", "icon": "Smile" }
@@ -138,9 +138,13 @@ const cvData = {
     { "name": "Diversità, Equità e Inclusione (DE&I, PdR 125)", "date": "2024" },
     { "name": "Comunicazione Non Violenta (CNV)", "date": "2023" },
     { "name": "Trinity of Management (ToM®)", "date": "2023" },
+    { "name": "Certified ScrumMaster® (CSM®)", "date": "2022" },
     { "name": "Chief Happiness Officer (CHO)", "date": "2021" },
-    { "name": "Certified ScrumMaster® (CSM®)", "date": "2018" },
-    { "name": "Le basi di Agile e Scrum", "date": "2018" }
+    { "name": "Android Enterprise Associate (GooglePartnerTraining)", "date": "2020" },
+    { "name": "Android Enterprise Professional (GooglePartnerTraining)", "date": "2020" },
+    { "name": "Le basi di Agile e Scrum", "date": "2018" },
+    { "name": "Udacity - Google Developer Challenge Scholarship: Mobile Web", "date": "2017" },
+    { "name": "Perito Elettronica e Telecomunicazioni, Istituto Tecnico Ettore Majorana", "date": "set 1998 - giu 2003" }
   ],
   "experience": [
       {
