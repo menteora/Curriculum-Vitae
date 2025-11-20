@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, Linkedin } from 'lucide-react';
 import cvData from '../cv-data';
 
 const Testimonials: React.FC = () => {
@@ -40,6 +40,11 @@ const Testimonials: React.FC = () => {
                     <div className="mt-4 pt-3 border-t border-slate-100 dark:border-slate-700 text-xs">
                         <p className="font-semibold text-slate-500 dark:text-slate-400">{msg.role}</p>
                         <p className="italic text-slate-400 dark:text-slate-500 mt-1">{msg.relation}</p>
+                        
+                        <div className="flex items-center mt-2 text-blue-600 dark:text-blue-400 font-medium opacity-80 group-hover:opacity-100 transition-opacity">
+                            <Linkedin className="h-3 w-3 mr-1" />
+                            <span>Fonte verificata LinkedIn</span>
+                        </div>
                     </div>
                 </div>
                 
