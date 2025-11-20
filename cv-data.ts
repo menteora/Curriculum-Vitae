@@ -107,8 +107,7 @@ const cvData = {
       { "name": "Affidabilità e Responsabilità", "icon": "ShieldCheck" },
       { "name": "Metodologie Agili e Lean", "icon": "Wind" },
       { "name": "Apprendimento Continuo", "icon": "Search" },
-      { "name": "Miglioramento Continuo", "icon": "TrendingUp" },
-      { "name": "Inclusione e Sensibilità D&I", "icon": "HeartHandshake" }
+      { "name": "Miglioramento Continuo", "icon": "TrendingUp" }
     ]
   },
   "howPrinciples": {
@@ -131,7 +130,7 @@ const cvData = {
   },
   "whereIApplyIt": {
     "title": "I miei Ambiti",
-    "items": [ "IT e Organizzazione Aziendale", "Analisi e Sviluppo Web e Progetti AI", "Trasformazione Culturale e Agile", "Progettazione di Esperienze Umane" ]
+    "items": [ "IT e Organizzazione Aziendale", "Analisi e Sviluppo Web e Progetti AI", "Trasformazione Culturale e Agile" ]
   },
   "certifications": [
     { "name": "Competenza su Standard ISO (9001, 30415)", "date": "2024" },
