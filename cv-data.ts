@@ -1,3 +1,4 @@
+
 const cvData = {
   "header": {
     "quote": ""
@@ -128,6 +129,24 @@ const cvData = {
     "title": "Il mio Target",
     "items": [ "CEO", "Comitati Direttivi", "Aziende", "Teams", "Chiunque cerchi più ordine, chiarezza e serenità" ]
   },
+  "testimonials": [
+    {
+      "name": "Gabriele T.",
+      "role": "Full Stack Dev • DevOps",
+      "date": "18/11/2025",
+      "relation": "Gabriele ha lavorato con Luca nello stesso team",
+      "text": "Luca é un ottimo professionista, molto lucido e centrato sia nel gestire situazioni di emergenza, che pianificate; ho lavorato con lui in diversi ambiti: dallo sviluppo di soluzioni software, all'IT e, negli ultimi anni, avendolo come SCRUM MASTER e CHO ed ho sempre trovato una persona disponibile, affidabile e chiara negli intenti, abile a guidare il team verso la soluzione migliore sia operativamente, che rispetto alla sfera dei rapporti professionali con i vari stakeholder dei progetti o i membri del team.\nSono un piacere le sessioni di brainstorming con lui, ad esplorare soluzioni interessanti e non banali derivate dal suo approccio curioso, attivo e dall'esperienza che la sua fame di conoscenza lo ha aiutato a costruire.",
+      "url": "https://www.linkedin.com/in/damicoluca"
+    },
+    {
+      "name": "Elena G.",
+      "role": "ESG Senior Specialist",
+      "date": "18/11/2025",
+      "relation": "Elena ha lavorato con Luca, ma presso aziende diverse",
+      "text": "Ho avuto il piacere di collaborare con Luca in un progetto importante e l'esperienza è stata estremamente positiva. Si è dimostrato cordiale, collaborativo e costruttivo, qualità che hanno reso il lavoro di squadra efficace e piacevole. Le doti che ho apprezzato maggiormente sono la proattività e la capacità di uscire dalla propria comfort zone, affrontando progetti anche lontani dal suo ambito abituale e portando sempre un valore aggiunto, sia in termini di competenza che di contributo personale. Lucido e dotato di ragionamento logico, non trascura mail il fattore umano: sa essere empatico e lavorare in team, ma anche portare avanti un progetto in autonomia avendo la consapevolezza di saper scegliere quando chiedere supporto e quando invece osare.",
+      "url": "https://www.linkedin.com/in/damicoluca"
+    }
+  ],
   "whereIApplyIt": {
     "title": "I miei Ambiti",
     "items": [ "IT e Organizzazione Aziendale", "Analisi e Sviluppo Web e Progetti AI", "Trasformazione Culturale e Agile" ]
@@ -158,7 +177,7 @@ const cvData = {
       {
           "company": "Freelance e collaborazioni occasionali",
           "roles": [
-              "Consulenza per Analisi e Sviluppo di siti web e applicazioni (React, Codex, Google Studio, Nuxt, Vue, FastAPI)",
+              "Consulenza per Analisi e Sviluppo di siti web e applicazioni (React, Vue, FastAPI)",
               "Sviluppo Python per automazioni",
               "Consulenza per l'adozione di pratiche Agili"
           ]

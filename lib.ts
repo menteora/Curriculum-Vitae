@@ -17,6 +17,7 @@ import WhereIApplyIt from './components/ScrumValues';
 import Certifications from './components/Certifications';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
+import Testimonials from './components/Testimonials';
 
 // UI Components
 import Card from './components/ui/Card';
@@ -49,6 +50,7 @@ export {
   Certifications,
   Experience,
   Footer,
+  Testimonials,
   Card,
   ThemeProvider,
   ThemeContext,

@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { Users } from 'lucide-react';
 import Card from './ui/Card';
+import Testimonials from './Testimonials';
 import cvData from '../cv-data';
 
 const WhoIHelp: React.FC = () => {
@@ -22,6 +24,8 @@ const WhoIHelp: React.FC = () => {
             </div>
         </div>
       </Card>
+      
+      <Testimonials />
     </section>
   );
 };
