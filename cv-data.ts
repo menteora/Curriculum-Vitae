@@ -145,6 +145,22 @@ const cvData = {
       "relation": "Elena ha lavorato con Luca, ma presso aziende diverse",
       "text": "Ho avuto il piacere di collaborare con Luca in un progetto importante e l'esperienza è stata estremamente positiva. Si è dimostrato cordiale, collaborativo e costruttivo, qualità che hanno reso il lavoro di squadra efficace e piacevole. Le doti che ho apprezzato maggiormente sono la proattività e la capacità di uscire dalla propria comfort zone, affrontando progetti anche lontani dal suo ambito abituale e portando sempre un valore aggiunto, sia in termini di competenza che di contributo personale. Lucido e dotato di ragionamento logico, non trascura mail il fattore umano: sa essere empatico e lavorare in team, ma anche portare avanti un progetto in autonomia avendo la consapevolezza di saper scegliere quando chiedere supporto e quando invece osare.",
       "url": "https://www.linkedin.com/in/damicoluca"
+    },
+    {
+      "name": "Mirko M.",
+      "role": "Senior Sales Engineer at SOTI",
+      "date": "24/11/2025",
+      "relation": "Mirko ha lavorato con Luca nello stesso team",
+      "text": "Ho lavorato con Luca per circa 18 anni nella mia precedente esperienza lavorativa e, oltre ad aver trovato un amico, ho potuto conoscere una persona dalla professionalità altissima. Molto dinamico e con la giusta dose di curiosità che gli permette di trovare il giusto approccio per la gestione delle varie sfide lavorative, sia tecniche che non. Non si tira mai indietro di fronte alla possibilità di conoscere qualcosa di nuovo e riesce sempre ad applicare le nuove conoscenze nei vari ambiti di cui si occupa. Lavorare in team con lui è un piacere sia per le sue doti tecniche e gestionali, sia per la sua capacità di tenere unite le persone.",
+      "url": "https://www.linkedin.com/in/damicoluca"
+    },
+    {
+      "name": "Maurizio M.",
+      "role": "Tecnico Sistemista",
+      "date": "20/11/2025",
+      "relation": "Maurizio e Luca hanno collaborato insieme",
+      "text": "Luca oltre ad avere eccellenti skill adeguati al suo lavoro ha delle qualità personali, affidabilità, onestà ed empatia tra le maggiori, e tutto questo gli fa avere una marcia in più, le competenze si acquisiscono nel corso degli anni ma le qualità personali non si imparano si hanno e basta.\nL'ho apprezzo e lo stimo molto, se dovessi affidare un lavoro importante a qualcuno nel suo campo lui è il primo a cui lo chiederei.",
+      "url": "https://www.linkedin.com/in/damicoluca"
     }
   ],
   "whereIApplyIt": {
